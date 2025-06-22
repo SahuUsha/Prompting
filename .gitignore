@@ -1,0 +1,47 @@
+# === Python general ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# === Virtual Environments ===
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === IDE Files ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Environment Variables / Secrets ===
+.env
+.env.*
+*.env
+*.env.local
+
+# === API Keys or config files (for safety) ===
+config.py
+secrets.py
+credentials.json
+
+# === Gemini/GenAI Related (optional) ===
+# Cache (if used in future)
+.google/
